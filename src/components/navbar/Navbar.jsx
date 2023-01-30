@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { GoThreeBars } from 'react-icons/go';
 import { MdOutlineClose } from 'react-icons/md';
 import navLink from '../../common/data';
-import logo from '../../assets/files';
+import { logo } from '../../assets/files';
 import '../../styles/navbar.scss';
 
 const Navbar = () => {
