@@ -57,7 +57,7 @@ const missionReducer = (state = initialState, action) => {
     case JOIN_MISSION:
       return {
         ...state,
-        ourMission: state.ourMission.map((mission) => {
+        missions: state.missions.map((mission) => {
           if (mission.mission_id === action.payload) {
             return { ...mission, status: true };
           }
@@ -67,7 +67,7 @@ const missionReducer = (state = initialState, action) => {
     case LEAVE_MISSION:
       return {
         ...state,
-        ourMission: state.ourMission.map((mission) => {
+        missions: state.missions.map((mission) => {
           if (mission.mission_id === action.payload) {
             return { ...mission, status: false };
           }
@@ -78,7 +78,6 @@ const missionReducer = (state = initialState, action) => {
       return state;
   }
 };
-
 export const allMissions = (state) => state.missionReducer.ourMission;
 export { getMissionDetail, reserveMission, cancelMission };
 
