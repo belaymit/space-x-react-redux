@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import SingleRocket from '../../components/ui/SingleRocket';
+import SingleRocket from '../../components/rocket/SingleRocket';
+
 import '../../styles/rockets.scss';
 
 const Rockets = () => {
