@@ -17,12 +17,14 @@ const Mission = ({ mission }) => {
       <h3 className="mission-title">{mission.mission_name}</h3>
       <p className="mission-description">{mission.description}</p>
       <div className="mission-status">
-        <button
-          type="button"
-          className={mission.status ? 'active-member' : 'not-member'}
-        >
-          {mission.status ? 'Active Member' : 'Not a Member'}
-        </button>
+        <div className="mission-status-btn">
+          <button
+            type="button"
+            className={mission.status ? 'active-member' : 'not-member'}
+          >
+            {mission.status ? 'Active Member' : 'Not a Member'}
+          </button>
+        </div>
         <button
           type="button"
           onClick={handleReservation}
