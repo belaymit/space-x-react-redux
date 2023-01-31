@@ -6,6 +6,10 @@ $title-dark-color: hsl($hue, $sat, 0%);
 $text-color: hsl($hue, $sat, 46%);
 $body-color: hsl($hue, $sat, 98%);
 $container-color: #fff;
+$light-color: #f4f6f7;
+$gray-color: #e8e8e8;
+$dark-gray: #979797;
+$red-color:#ee3030;
 
 $body-font: "Poppins", sans-serif;
 $bg-font-size: 3.5rem;
@@ -35,6 +39,7 @@ $mb-3:  3rem;
 $z-tooltip: 10;
 $z-fixed: 100;
 $z-modal: 1000;
+$btn-border-radius: 0.3125rem;
 
 $transition: all 0.5s ease;
 $link-color: #0290ff;
@@ -189,7 +194,7 @@ img {
 }
 
 .container {
-  max-width: 68.75rem;
+  max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 
