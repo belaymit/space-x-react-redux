@@ -33,7 +33,7 @@ const SingleRocket = ({ rocket }) => {
         <button
           type="button"
           onClick={handleReservation}
-          className={rocket.reserved ? 'cancel' : 'reserve'}
+          className={rocket.reserved ? 'cancel-reservation' : 'reserve-rocket'}
         >
           {rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
         </button>
