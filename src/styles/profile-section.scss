@@ -17,18 +17,26 @@
   .reserved-mission,
   .reserved-rocket {
     display: flex;
+    padding: 0.25rem;
     list-style: none;
     flex-direction: column;
     border-radius: 5px;
     border: solid 1px #e8e8e8;
   }
 
-  .reserved-rocket {
-    .reserved-item {
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.7rem 1rem 1.2rem;
-      border-bottom: solid 1px #e8e8e8;
-    }
+  .reserved-item {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1rem 1.2rem;
+    border-bottom: solid 1px #e8e8e8;
+  }
+
+  .leave-mission {
+    border-radius: $btn-border-radius;
+    padding: $mb-0-5;
+    margin-left: $mb-0-5;
+    font-size: $normal-font-size;
+    line-height: normal;
+    cursor: pointer;
   }
 }

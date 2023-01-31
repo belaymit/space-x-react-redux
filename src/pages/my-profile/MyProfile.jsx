@@ -44,7 +44,7 @@ const MyProfile = () => {
         <h1 className="profile-title">My Rockets</h1>
         <ul className="reserved-rocket">
           {reservedRockets?.filter((rocket) => rocket.reserved === true).map((rocket) => (
-            <li key={rocket.id} className="reserved-item d-flex">
+            <li key={rocket.id} className="reserved-item">
               {rocket.name}
               <button
                 type="button"
