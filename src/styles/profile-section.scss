@@ -1,4 +1,5 @@
 @import '../common/common-css-rules.scss';
+
 .profile-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,6 +13,7 @@
     font-weight: bold;
     margin-bottom: 1rem;
   }
+
   .reserved-mission,
   .reserved-rocket {
     display: flex;
@@ -24,9 +26,9 @@
   .reserved-rocket {
     .reserved-item {
       align-items: center;
-  justify-content: space-between;
-  padding: 0.7rem 1rem 1.2rem;
-  border-bottom: solid 1px #e8e8e8;
+      justify-content: space-between;
+      padding: 0.7rem 1rem 1.2rem;
+      border-bottom: solid 1px #e8e8e8;
     }
   }
 }
