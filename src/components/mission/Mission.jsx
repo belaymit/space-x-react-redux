@@ -26,7 +26,7 @@ const Mission = ({ mission }) => {
         <button
           type="button"
           onClick={handleReservation}
-          className={mission.status ? 'leave-button' : 'join-button'}
+          className={mission.status ? 'leave-mission' : 'join-mission'}
         >
           {mission.status ? 'Leave Mission' : 'Join Mission'}
         </button>
