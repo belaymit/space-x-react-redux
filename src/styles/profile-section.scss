@@ -23,12 +23,13 @@
     border-radius: 5px;
     border: solid 1px #e8e8e8;
   }
-    .reserved-item {
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.7rem 1rem 1.2rem;
-      border-bottom: solid 1px #e8e8e8;
-    }
+
+  .reserved-item {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1rem 1.2rem;
+    border-bottom: solid 1px #e8e8e8;
+  }
 
   .leave-mission {
     border-radius: $btn-border-radius;
