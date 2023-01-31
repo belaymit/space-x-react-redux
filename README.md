@@ -93,7 +93,7 @@ The project I created, called **space-x-react-redux**, was built using ReactJs a
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://space-traveler-app-react-redux.onrender.com/my-profile)
+- [Live Demo Link](https://space-traveler-app-react-redux.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
