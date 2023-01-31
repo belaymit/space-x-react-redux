@@ -1,0 +1,16 @@
+// Mission
+export const FETCH_MISSIONS = 'FETCH_MISSIONS';
+export const MISSIONS_SUCCESS = 'MISSIONS_SUCCESS';
+export const MISSIONS_FAILURE = 'MISSIONS_FAILURE';
+export const JOIN_MISSION = 'JOIN_MISSION';
+export const LEAVE_MISSION = 'LEAVE_MISSION';
+
+// Rockets
+export const FETCH_ROCKETS = 'FETCH_ROCKETS';
+export const ROCKETS_SUCCESS = 'ROCKETS_SUCCESS';
+export const ROCKETS_FAILURE = 'ROCKETS_FAILURE';
+export const RESERVE_ROCKET = 'RESERVE_ROCKET';
+export const CANCEL_ROCKET = 'CANCEL_ROCKET';
+
+// My Profile
+export const RESERVED_ROCKETS = 'RESERVED_ROCKETS';
